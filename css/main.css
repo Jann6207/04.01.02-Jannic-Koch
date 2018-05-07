@@ -1,0 +1,281 @@
+/* Basis styles */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #bababa;
+}
+
+/* Navigation */
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    padding-left: 0;
+    /*border: 1px solid #ffffff;*/
+    border-radius: 2px;
+    font-family: 'Rokkitt', serif;
+    text-decoration: none;
+    color: white;
+    background-color: #9f9e9e;
+
+}
+
+nav ul li {
+    position: relative;
+    padding-right: 2em;
+    text-decoration: none;
+
+
+}
+
+.dropdown > ul {
+    display: none;
+    position: absolute;
+    background-color: #9eb3b5;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    padding: 1em;
+
+}
+
+.dropdown > ul li {
+    white-space: nowrap;
+    padding: 0 2em;
+
+}
+
+.dropdown:hover > ul {
+    display: block;
+
+
+}
+
+.sectionwrapper1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #b2a8c3/*#1d7874*/
+    ;
+
+}
+
+.sectionwrapper1 {
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+.column1,
+.column2,
+.column3 {
+
+    float: left;
+    width: 16%;
+    align-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px;
+
+
+}
+
+
+/*.column1 {
+    padding-left: 53px;
+}
+
+.column2 {
+    padding-left: 53px;
+}
+
+.column3 {
+    padding-right: 53px;
+}*/
+
+.sectionwrapper2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #6b7072/*#1d7874*/
+    /*#679289*/
+    ;
+}
+
+.sectionwrapper2 {
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+/*.column4,*/
+
+.column5 {
+    float: center;
+    width: 80%;
+    height: auto;
+    /*align-content: center;*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.sectionwrapper3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #b2a291/*#679289*/
+    /*#1d7874*/
+    ;
+}
+
+.sectionwrapper3 {
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+.column6,
+.column7 {
+    float: left;
+    width: 34%;
+    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.sectionwrapper4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #b1b1b1/*#ee2e31*/
+    ;
+
+}
+
+.sectionwrapper4 {
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+.column8,
+.column9,
+.column10 {
+    float: left;
+    width: 16%;
+    align-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px;
+
+
+
+}
+
+.h {
+    font-family: 'Rokkitt', serif;
+    /*font-family: 'Old Standard TT', serif;*/
+    width: 100%;
+    margin-left: 130px;
+    color: #ffffff;
+
+
+}
+
+.hh {
+    font-family: 'Rokkitt', serif;
+    /* font-family: 'Old Standard TT', serif;*/
+    width: 100%;
+    margin-left: 130px;
+    color: #ffffff;
+
+}
+
+h3 {
+    font-family: 'Rokkitt', serif;
+    /*font-family: 'Old Standard TT', serif;*/
+}
+
+p,
+i {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.obwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #bdb6c9/*#1d7874*/
+    ;
+
+}
+
+.obwrapper {
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+.ob_column1,
+.ob_column2,
+.ob_column3 {
+
+    float: left;
+    width: 16%;
+    align-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px;
+
+
+}
+
+.oh {
+    font-family: 'Rokkitt', serif;
+    /*font-family: 'Old Standard TT', serif;*/
+    width: 100%;
+    margin-left: 130px;
+    color: #ffffff;
+}
+
+.obwrapper2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #9db9ae/*#679289*/
+    /*#1d7874*/
+    ;
+}
+
+.obwrapper2 {
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+.ob_column4,
+.ob_column5 {
+    float: left;
+    width: 34%;
+    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
